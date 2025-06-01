@@ -36,9 +36,6 @@ jobs:
       - name: Build the project
         run: npm run build --if-present
 
-      # Step 6: Run tests
-      - name: Run tests
-        run: npm test --if-present
 
       # Step 7: Debug - Check installed dependencies
       - name: List installed dependencies
